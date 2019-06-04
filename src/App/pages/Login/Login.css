@@ -1,0 +1,9 @@
+.login__card {
+    background: #ececec;
+    margin-top: 8em;
+}
+
+.login__login-button {
+    background: #ff9900;
+    border-color: #ff9900;
+}

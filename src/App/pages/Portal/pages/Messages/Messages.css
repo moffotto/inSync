@@ -1,0 +1,125 @@
+.messages__profile-img {
+    width: 58rem;
+    padding: 0;
+}
+
+.messages__search-profile-img {
+    width: 60%;
+    padding: 0;
+}
+
+.messages__message-container {
+    width: 100%;
+}
+
+.messages__send-new-btn {
+    width: 20%;
+}
+
+/* .messages__input-group {
+    width: 70%;
+} */
+
+.messages__new-recipient {
+    width: 90%;
+}
+
+.messages__fixed-content {
+    top: 8.1vh;
+    bottom:0;
+    overflow-y:scroll;
+    overflow-x:hidden;
+    position: fixed;
+
+    /* margin-left: 36%; */
+    margin-left: 30%;
+
+    padding-bottom: 5em;
+    width: 100%;
+}
+
+.messages__chats-column {
+    border-right: 2px solid grey;
+    top: 8vh;
+    bottom:0;
+    position:fixed;
+    overflow-y:scroll;
+    overflow-x:hidden;
+    width: 30%;
+}
+
+.messages__profile-img-container {
+    width: 3.5rem;
+    height: 3.5rem;
+    margin: 0 1em;
+    display: flex;
+    align-items: center;
+}
+
+.messages__message-box {
+    margin-top: 3em;
+}
+
+.messages__card {
+    width: 40%;
+}
+
+.messages__card-user {
+    background: #505050;
+    color: white;
+}
+
+.messages__card-other-user {
+    background: ghostwhite;
+}
+
+.messages__card-footer {
+    text-align: right;
+    padding: .2em .8em;
+    font-size: small;
+}
+
+.messages__text-orange {
+    color: #ff9900;
+}
+
+.messages__text-muted {
+    color: #6c757d;
+}
+
+.messages__new-message {
+    position: fixed;
+    bottom: 0;
+    width: 52%;
+    margin-bottom: 0!important;
+}
+
+.messages__form-body {
+    margin-bottom: 0;
+    display: inline-block;
+    width: 45%;
+}
+
+.messages__form-button {
+    width:10%;
+    vertical-align: bottom!important;
+}
+
+.messages__new-message-icon {
+    color: #ff9900;
+    padding: .3em;
+    cursor: pointer;
+}
+
+.messages__no-top-border {
+    border-top: 0!important;
+}
+
+.messages__form-border-radius {
+    border-radius: .01rem!important;
+}
+
+.messages__heading {
+    padding-top: .3em;
+    padding-left: .3em;
+}

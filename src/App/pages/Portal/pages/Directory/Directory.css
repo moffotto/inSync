@@ -1,0 +1,56 @@
+.directory__profile-img-container {
+    width: 3.5rem;
+    height: 3.5rem;
+    margin: 0 1em;
+    display: flex;
+    align-items: center;
+}
+
+.directory__profile-img {
+    width: 10em;
+    padding: 0;
+    display: inline-block;
+}
+
+.directory__container {
+    margin-left: 4em;
+    margin-top: 2em;
+}
+
+.directory__input-group {
+    width: 70%;
+}
+
+.directory__card {
+    width: 71%;
+    margin-bottom: 2em;
+    background-color: #f7f7f7;
+    box-shadow: 0px 2px 2px #aab0b5;
+}
+
+.directory__search-row-1 {
+    margin-bottom: 1em;
+}
+
+.directory__search-row-2 {
+    margin-bottom: 2em;
+}
+
+.directory__user-info > h4 {
+    padding-top: 1rem;
+    padding-bottom: .3rem;
+}
+
+.directory__user-info p {
+    padding-left: 1rem;
+    padding-bottom: .2rem;
+    margin-bottom: 0;
+}
+
+.directory__user-info > .row {
+    margin-bottom: 0;
+}
+
+.directory__info-sub-heading {
+    color: #ff9900;
+}

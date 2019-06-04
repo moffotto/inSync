@@ -1,0 +1,41 @@
+.portal__box-toggle-off {
+    margin-left: 64px;
+    /* width: 95.4%; */
+    width: 96.11%;
+}
+
+.portal__box-toggle-on {
+    margin-left: 240px;
+    /* width: 83%; */
+    width: 85.66%;
+}
+
+.portal__fixed-content {
+    top: 8vh;
+    bottom:0;
+    position:fixed;
+    overflow-y:scroll;
+    overflow-x:hidden;
+}
+
+.portal__side-nav {
+    background:#030f12!important;
+    border-right: 1px solid #444444;
+}
+
+.portal__nav-log-out {
+    position: fixed!important;
+    bottom: 0;
+}
+
+.portal__nav-off {
+    min-width: 64px;
+}
+
+.portal__nav-on {
+    min-width: 240px;
+}
+
+.portal__camochat-background {
+    background: #0d0a05;
+}

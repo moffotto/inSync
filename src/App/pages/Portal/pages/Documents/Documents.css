@@ -1,0 +1,154 @@
+.documents__card {
+    background: #ececec;
+    margin-top: 8em;
+}
+
+.documents__button {
+    background: #ff9900;
+    border-color: #ff9900;
+}
+
+.documents__profile-img-container {
+    width: 3.5rem;
+    height: 3.5rem;
+    margin: 0 1em;
+    display: flex;
+    align-items: center;
+}
+
+.documents__profile-img {
+    width: 10em;
+    padding: 0;
+    display: inline-block;
+}
+
+.documents__container {
+    margin-left: 4em;
+    margin-top: 2em;
+}
+
+.documents__card {
+    width: 71%;
+    margin-bottom: 2em;
+}
+
+.documents__search-row-1 {
+    margin-bottom: 1em;
+}
+
+.documents__search-row-2 {
+    margin-bottom: 2em;
+}
+
+.documents__modal-wide {
+    width:70%;
+    height: 90%;
+    max-width: 90%!important;
+    overflow-y:scroll;
+}
+
+/* .documents__modal-wide > .modal-content {
+    height: 100%!important;
+} */
+
+.documents__modal-wide .modal-body {
+    padding: 1rem 2rem 2rem 2rem;
+}
+
+.accordion__panel .row {
+    padding-left: 1em;
+}
+
+.documents__doc-card {
+    width: 30%;
+    display: inline-flex;
+    margin: .4em .2em .4em .2em;
+    box-shadow: 0px 2px 2px #aab0b5;
+}
+
+.documents__doc-card > div {
+    display: inline-block;
+}
+
+.documents__button-row {
+    justify-content: flex-end;
+    padding-right: 2em;
+}
+
+.documents__card-file-type {
+    text-align: center;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    background-color: #e4e4e4;
+    cursor: pointer;
+}
+
+.documents__card-file-type > i {
+    color: #ff9900;
+}
+
+.documents__card-heading {
+    padding: .4em .4em 0 .4em;
+}
+
+.documents__card-heading > p {
+    margin-bottom: 0;
+}
+
+.documents__card-subtext {
+    padding: .1em .4em .4em .4em;
+}
+
+.documents__card-subtext > p {
+    font-size: smaller;
+    margin-bottom: 0;
+    color: grey;
+}
+
+.documents__modal-author {
+    font-size: smaller;
+    color: grey;
+    padding-bottom: 2rem;
+}
+
+.documents__sub-heading {
+    margin-bottom: 1.5rem;
+}
+
+.documents__input-group {
+    width: 100%;
+}
+
+.documents__empty-files {
+    padding-bottom:10em;
+}
+
+.documents__container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+.documents__dropzone {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-width: 2px;
+    border-radius: 2px;
+    border-style: dashed;
+    border-color: #eeeeee;
+    background-color: #fafafa;
+    color: #bdbdbd;
+    outline: none;
+    transition: border .24s ease-in-out;
+}
+
+.documents__dropzone-files {
+    padding-top: .3em;
+    padding-bottom: 2em;
+}
+/* 
+border-color: ${props => getColor(props)}; */

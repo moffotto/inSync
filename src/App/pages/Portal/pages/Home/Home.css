@@ -1,0 +1,12 @@
+.home__main-card {
+  margin: 2em 3em 2em 2em;
+}
+
+.home__main-card .card-title {
+  margin-bottom: 2rem;
+}
+
+.home__custom-card-link {
+  cursor: pointer;
+  color: #007bff!important;
+}

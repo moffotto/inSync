@@ -1,7 +1,7 @@
 {
   "name": "inSync",
   "version": "0.1.0",
-  "homepage": "https://moffotto.github.io",
+  "homepage": "https://moffotto.github.io/inSync",
   "private": true,
   "dependencies": {
     "@trendmicro/react-sidenav": "^0.4.5",

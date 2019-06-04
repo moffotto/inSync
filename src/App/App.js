@@ -43,7 +43,7 @@ class App extends Component {
   render() {
     return (
 
-      <Router>
+      <Router basename="inSync">
         <div>
           <header>
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">

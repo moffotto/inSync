@@ -1,7 +1,7 @@
 import React, { Fragment, Component } from 'react';
 import './Login.css';
 import { Redirect } from "react-router-dom";
-import { Button, Form, Image, Container, Row, Col, Card } from 'react-bootstrap';
+import { Button, Form, Image, Container, Row, Col, Card, Alert } from 'react-bootstrap';
 import { signIn } from '../../utils/users';
 
 export class Login extends Component {
@@ -10,8 +10,20 @@ export class Login extends Component {
         this.state = {
             password: '',
             username: '',
-            errorMessage: ''
+            errorMessage: '',
+            showAlert: '',
+            alertText: ''
         };
+
+        this.closeAlert = this.closeAlert.bind(this);
+        this.handleSignIn = this.handleSignIn.bind(this);
+    }
+
+    closeAlert() {
+        this.setState({
+            showAlert: '',
+            alertText: ''
+        });
     }
 
     handleChange(event) {
@@ -21,6 +33,14 @@ export class Login extends Component {
         let changes = {};
         changes[field] = value;
         this.setState(changes);
+    }
+
+    async handleSignIn() {
+        let signInn = await signIn(this.state.username, this.state.password, this.props.handleSignIn);
+
+        if (signInn === undefined) {
+            this.setState({ showAlert: "signIn" });
+        }
     }
 
     render() {
@@ -41,6 +61,10 @@ export class Login extends Component {
                             <Col xs={{ span: 10, offset: 1 }}>
                                 <Card className="login__card">
                                     <Card.Body>
+                                        <Alert show={(this.state.showAlert === "signIn")} onClose={() => this.closeAlert()} dismissible variant="danger">
+                                            <Alert.Heading>Couldn't log in. Please try again.</Alert.Heading>
+                                        </Alert>
+
                                         <Form>
                                             {(from.pathname !== "/") && <p>You must log in to view the page at {from.pathname}</p>}
 
@@ -63,7 +87,7 @@ export class Login extends Component {
                                                     onChange={(event) => { this.handleChange(event) }} />
                                             </Form.Group>
 
-                                            <Button className="login__login-button" onClick={() => { signIn(this.state.username, this.state.password, this.props.handleSignIn) }} block>Log In</Button>
+                                            <Button className="login__login-button" onClick={() => { this.handleSignIn() }} block>Log In</Button>
                                         </Form>
                                     </Card.Body>
                                 </Card>

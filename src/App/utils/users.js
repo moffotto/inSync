@@ -27,6 +27,7 @@ export async function signIn(username, password, handleSignIn) {
         handleSignIn();
     }).catch(function (err) {
         console.error(err);
+        return undefined;
     });
 };
 

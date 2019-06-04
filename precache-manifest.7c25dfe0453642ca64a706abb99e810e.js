@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "51c5cb917d74678d405aa603cbb3006a",
+    "revision": "055cd2eb0cc3abe414169ad19379ee3d",
     "url": "/inSync/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/inSync/static/css/2.4a08c4a1.chunk.css"
   },
   {
-    "revision": "318415f0e9ab5e764624",
+    "revision": "202071db53a6bbe50ed5",
     "url": "/inSync/static/css/main.1cf579d3.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/inSync/static/js/2.26067f50.chunk.js"
   },
   {
-    "revision": "318415f0e9ab5e764624",
-    "url": "/inSync/static/js/main.d073c189.chunk.js"
+    "revision": "202071db53a6bbe50ed5",
+    "url": "/inSync/static/js/main.03d67e3d.chunk.js"
   },
   {
     "revision": "7d0e6df9cff019e969b7",

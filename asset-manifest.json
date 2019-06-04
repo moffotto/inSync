@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/inSync/static/css/main.1cf579d3.chunk.css",
-    "main.js": "/inSync/static/js/main.d073c189.chunk.js",
-    "main.js.map": "/inSync/static/js/main.d073c189.chunk.js.map",
+    "main.js": "/inSync/static/js/main.03d67e3d.chunk.js",
+    "main.js.map": "/inSync/static/js/main.03d67e3d.chunk.js.map",
     "runtime~main.js": "/inSync/static/js/runtime~main.1b40b96b.js",
     "runtime~main.js.map": "/inSync/static/js/runtime~main.1b40b96b.js.map",
     "static/css/2.4a08c4a1.chunk.css": "/inSync/static/css/2.4a08c4a1.chunk.css",
     "static/js/2.26067f50.chunk.js": "/inSync/static/js/2.26067f50.chunk.js",
     "static/js/2.26067f50.chunk.js.map": "/inSync/static/js/2.26067f50.chunk.js.map",
     "index.html": "/inSync/index.html",
-    "precache-manifest.2a6a35fd869dc139f7f7fcf187b59429.js": "/inSync/precache-manifest.2a6a35fd869dc139f7f7fcf187b59429.js",
+    "precache-manifest.7c25dfe0453642ca64a706abb99e810e.js": "/inSync/precache-manifest.7c25dfe0453642ca64a706abb99e810e.js",
     "service-worker.js": "/inSync/service-worker.js",
     "static/css/2.4a08c4a1.chunk.css.map": "/inSync/static/css/2.4a08c4a1.chunk.css.map",
     "static/css/main.1cf579d3.chunk.css.map": "/inSync/static/css/main.1cf579d3.chunk.css.map",

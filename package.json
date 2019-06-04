@@ -1,7 +1,7 @@
 {
-  "name": "company-portal-app",
+  "name": "inSync",
   "version": "0.1.0",
-  "homepage": "http://aamiller.github.io/inSync-1",
+  "homepage": "http://moffotto.github.io/inSync",
   "private": true,
   "dependencies": {
     "@trendmicro/react-sidenav": "^0.4.5",

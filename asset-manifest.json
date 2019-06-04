@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/inSync/static/css/main.1cf579d3.chunk.css",
-    "main.js": "/inSync/static/js/main.d073c189.chunk.js",
-    "main.js.map": "/inSync/static/js/main.d073c189.chunk.js.map",
-    "runtime~main.js": "/inSync/static/js/runtime~main.1b40b96b.js",
-    "runtime~main.js.map": "/inSync/static/js/runtime~main.1b40b96b.js.map",
-    "static/css/2.4a08c4a1.chunk.css": "/inSync/static/css/2.4a08c4a1.chunk.css",
-    "static/js/2.26067f50.chunk.js": "/inSync/static/js/2.26067f50.chunk.js",
-    "static/js/2.26067f50.chunk.js.map": "/inSync/static/js/2.26067f50.chunk.js.map",
-    "index.html": "/inSync/index.html",
-    "precache-manifest.93e094bb44dcbd66ae4c3b418cf5e281.js": "/inSync/precache-manifest.93e094bb44dcbd66ae4c3b418cf5e281.js",
-    "service-worker.js": "/inSync/service-worker.js",
-    "static/css/2.4a08c4a1.chunk.css.map": "/inSync/static/css/2.4a08c4a1.chunk.css.map",
-    "static/css/main.1cf579d3.chunk.css.map": "/inSync/static/css/main.1cf579d3.chunk.css.map",
-    "static/media/brick.jpg": "/inSync/static/media/brick.0c604d8f.jpg",
-    "static/media/Camochat.css": "/inSync/static/media/camofade5.afdbba28.png",
-    "static/media/fence.jpg": "/inSync/static/media/fence.cd0778bc.jpg",
-    "static/media/hire.png": "/inSync/static/media/hire.6e8088aa.png"
+    "main.css": "/static/css/main.250c883b.chunk.css",
+    "main.js": "/static/js/main.81efb5b4.chunk.js",
+    "main.js.map": "/static/js/main.81efb5b4.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/css/2.4a08c4a1.chunk.css": "/static/css/2.4a08c4a1.chunk.css",
+    "static/js/2.26067f50.chunk.js": "/static/js/2.26067f50.chunk.js",
+    "static/js/2.26067f50.chunk.js.map": "/static/js/2.26067f50.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.58a47171a6a9aebe75f180637df9616f.js": "/precache-manifest.58a47171a6a9aebe75f180637df9616f.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.4a08c4a1.chunk.css.map": "/static/css/2.4a08c4a1.chunk.css.map",
+    "static/css/main.250c883b.chunk.css.map": "/static/css/main.250c883b.chunk.css.map",
+    "static/media/brick.jpg": "/static/media/brick.0c604d8f.jpg",
+    "static/media/Camochat.css": "/static/media/camofade5.afdbba28.png",
+    "static/media/fence.jpg": "/static/media/fence.cd0778bc.jpg",
+    "static/media/hire.png": "/static/media/hire.6e8088aa.png"
   }
 }

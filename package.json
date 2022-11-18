@@ -14,7 +14,7 @@
     "react-dropzone": "^10.1.4",
     "react-markdown": "^4.0.8",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "^3.0.0",
+    "react-scripts": "^5.0.1",
     "typescript": "^3.3.3333",
     "whatwg-fetch": "^3.0.0"
   },
